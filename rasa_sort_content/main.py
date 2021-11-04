@@ -24,8 +24,7 @@ def sort_intent_examples(training_examples):
     Sorts the examples in an intent dictionary
     """
 
-    def f(x):
-        return (x.get("intent", None), x.get("text", None))
+    def f(x): return (x.get("intent", None), x.get("text", None))
 
     return sorted(training_examples, key=f)
 
