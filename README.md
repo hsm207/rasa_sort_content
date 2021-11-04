@@ -4,8 +4,8 @@ This project shows how to sort the content in rasa's yaml files
 # Prerequisities
 
 * Python 3.8.12
-* Poetry
-* make
+* [Poetry](https://python-poetry.org/docs/#installation)
+* [make](https://www.gnu.org/software/make/)
 
 # Usage
 1. Run `make install`
